@@ -1,0 +1,6 @@
+[submodule "algs4"]
+	path = algs4
+	url = https://github.com/kevin-wayne/algs4.git
+[submodule "algs4-py"]
+	path = algs4-py
+	url = https://github.com/shellfly/algs4-py.git
