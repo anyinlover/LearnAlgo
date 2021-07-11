@@ -128,9 +128,17 @@ class Quick3WaySort(Sort):
         random.shuffle(a)
         self._sort(a, 0, len(a) - 1) 
 
+class HeapSort(Sort):
+    def sort(self, a):
+        n = len(a)
+        for k in reversed(range(1, n//2+1)):
+            self._sink(a, k, n)
+        while n > 1:
+            a[1]
+
+
 if __name__ == "__main__":
-    data = sys.stdin.readline().split()
-#    data = list("SORTEXAMPLE")
+    data = list("SORTEXAMPLE")
     sortion = Quick3WaySort()
     sortion.sort(data)
     assert(sortion.is_sorted(data))
