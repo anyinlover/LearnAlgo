@@ -1,5 +1,5 @@
-from stack import LinkedListStack
-from queue import Queue
+from chap1_fundamentals.stack import LinkedListStack
+from chap1_fundamentals.queue import Queue
 
 class DirectedCycle:
     def __init__(self, g):

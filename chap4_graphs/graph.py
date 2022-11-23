@@ -1,4 +1,4 @@
-from bag import Bag
+from chap1_fundamentals.bag import Bag
 
 class Graph:
     def __init__(self, v):
